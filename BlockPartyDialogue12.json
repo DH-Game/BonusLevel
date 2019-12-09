@@ -1,0 +1,32 @@
+[
+	{
+		"title": "BlockParty",
+		"tags": "",
+		"body": "Welcome to our neighborhood. Seeing as its Hallowe'en, it would only be appropriate for you to go trick-or-treating. Bring back a candy from each house and we can really party.\n[[ Yeah sure fine, I'll go find candy.| YesWant]] \n[[ I'm literally just trying to find the party.| NoWant]] ",
+		"position": {
+			"x": 410,
+			"y": 236
+		},
+		"colorID": 0
+	},
+	{
+		"title": "YesWant",
+		"tags": "",
+		"body": "Wow you take orders real easy--Thanks!",
+		"position": {
+			"x": 185,
+			"y": 489
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NoWant",
+		"tags": "",
+		"body": "Tough Tits sugar plum, I'm the teacher now. Go find some candy.",
+		"position": {
+			"x": 629,
+			"y": 495
+		},
+		"colorID": 0
+	}
+]

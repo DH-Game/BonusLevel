@@ -1,0 +1,32 @@
+[
+	{
+		"title": "BottomDoor1",
+		"tags": "",
+		"body": "Open Door 1?\n[[ answer: Yes |OpenDoor1 ]] [[ answer: No | CancelDoor1 ]]  ",
+		"position": {
+			"x": 412,
+			"y": 238
+		},
+		"colorID": 0
+	},
+	{
+		"title": "OpenDoor1",
+		"tags": "",
+		"body": "Oh--Uh--this one's occupied!\nShh! Don't move--they'll here us!",
+		"position": {
+			"x": 587,
+			"y": 70
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelDoor1",
+		"tags": "",
+		"body": "<<cancelenterbottomdoor1>> ",
+		"position": {
+			"x": 802,
+			"y": 290
+		},
+		"colorID": 0
+	}
+]

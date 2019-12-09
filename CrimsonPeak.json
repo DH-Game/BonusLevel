@@ -1,0 +1,182 @@
+[
+	{
+		"title": "EdithDialog",
+		"tags": "",
+		"body": "You there! Stop!\nDid Alan send you? Nevermind that, you're here.\nI'm hiding from my Sister-in-law.\n[[Your Sister-in-law? |EdithResponse1]] [[Why? Are you okay? |EdithResponse1]] ",
+		"position": {
+			"x": 409,
+			"y": 235
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithResponse1",
+		"tags": "",
+		"body": "I'm afraid I've been taken for a fool...\nMy husband, Sir Thomas, brought me here to live with him and his sister, Lucille.\nI left everything I had behind.\nAnd now that I'm here, I've seen less of Thomas than ever. And Lucille...\nI think she's poisoning my tea. \nMy friend Dr. Alan was sending me a letter, I think with information about Thomas and Lucille in it, but Lucille got it first and tore it up. \nThese are the only scraps I have. \nCould you help me try to put it together?\n[[Yes of course! |EdithYes]] [[The last thing I want is to be poisoned, you're on your own! |EdithNo]] ",
+		"position": {
+			"x": 767,
+			"y": 233
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithYes",
+		"tags": "",
+		"body": "Thanks! \nI've got the Letter here in my pocket!\n[[Brilliant, let's get started! |EdithDialogEnd]] [[Bring it out, we should hurry! |EdithDialogEnd]] ",
+		"position": {
+			"x": 1093,
+			"y": -3
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithNo",
+		"tags": "",
+		"body": "Then I suggest you get out while you still can!\nAt least I've got Thomas... I think.\n[[Good Luck |EdithDialogEnd]] [[Are you sure about that? |EdithDialogEnd]] ",
+		"position": {
+			"x": 1106,
+			"y": 488
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithDialogEnd",
+		"tags": "",
+		"body": "<<EndEdithDialog>> ",
+		"position": {
+			"x": 1417,
+			"y": 243
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter1",
+		"tags": "",
+		"body": "Here's the first page!\n\"Sir Thomas and Lucille’s Mother. . .\"\n[[was murdered in their home. |Letter1True]] [[died in a house fire. |Letter1False]] ",
+		"position": {
+			"x": 270,
+			"y": 1385
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter1True",
+		"tags": "",
+		"body": "Thomas and Lucille's mother was murdered...\nSuch a violent death, and in their own home too.\nWith only Thomas and Lucille there. \nThe next letter, we must continue to the next letter.\n\"Sir Thomas . . .\" One word, only one word survived? Oh this is impossible.\n[[has previous marriages, and is currently married |Letter2True]] [[Thomas a fugitive of the law |Letter2False]] ",
+		"position": {
+			"x": 630,
+			"y": 1052
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter1False",
+		"tags": "",
+		"body": "Those poor kids, loosing their mother in a fire like that.\nI understand all too well what it is like to loose a mother.\nThe next letter, we must continue to the next letter.\n\"Sir Thomas . . .\" One word, only one word survived? Oh this is impossible.\n[[has previous marriages, and is currently married |Letter2True]] [[Thomas a fugitive of the law |Letter2False]] ",
+		"position": {
+			"x": 624,
+			"y": 1721
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter2True",
+		"tags": "",
+		"body": "No, not my Thomas. \nI asked him about Italy, about Milan. Did he lie?\nThe third letter, this is the last letter. One more, please.\n\"Lucille and Sir Thomas...\" Oh this is hopeless.\n[[Are in an incestuous relationship, and trying to steal her fortune. |Letter3True]] [[Are crazed twins escaped from an asylum. |Letter3False]]  ",
+		"position": {
+			"x": 1030,
+			"y": 1046
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter2False",
+		"tags": "",
+		"body": "Thomas a fugitive! I married a criminal!\nThere must be a reason, Thomas would never have done anything... terrible, not without a reason.\nThe last letter, we must finish the last letter.\n\"Lucille and Sir Thomas...\" Oh this is hopeless.\n[[Are in an incestuous relationship, and trying to steal her fortune. |Letter3True]] [[Are crazed twins escaped from an asylum. |Letter3False]]  ",
+		"position": {
+			"x": 1044,
+			"y": 1730
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter3True",
+		"tags": "",
+		"body": "Oh my...\nOh, oh my, what have I gotten myself into.\n[[Edith, are you ok? |EdithLettersEnd]] [[Do you want to leave? |EdithLettersEnd]]",
+		"position": {
+			"x": 1432,
+			"y": 1055
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Letter3False",
+		"tags": "",
+		"body": "Oh my...\nOh, oh my, what have I gotten myself into.\n[[Edith, are you ok? |EdithLettersEnd]] [[Do you want to leave? |EdithLettersEnd]]",
+		"position": {
+			"x": 1448,
+			"y": 1717
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithLettersEnd",
+		"tags": "",
+		"body": "<<EndEdithLetters>> ",
+		"position": {
+			"x": 1816,
+			"y": 1328
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithEscape",
+		"tags": "",
+		"body": "I can't stay, I mustn't; it isn't safe!\nThank you, friend, for helping me put this all together.\nNow go. Go! You must leave this place!\n[[Not without you! |EndCrimsonPeak]] [[Are you going to leave? |EndCrimsonPeak]] ",
+		"position": {
+			"x": -573,
+			"y": 522
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndCrimsonPeak",
+		"tags": "",
+		"body": "I'll be right behind you!\nGo, flee! And thank you again!\n[[Good-bye! |EndCrimsonPeakSuccess]] [[Who's that down the hall? |EndCrimsonPeakSuccess]] ",
+		"position": {
+			"x": -256,
+			"y": 526
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EdithTrapped",
+		"tags": "",
+		"body": "No, this can't be right. \nI can't accept this! \nThank you, for trying. But I will solve this myself.\n[[Good Luck |EndCrimsonPeakFail]] [[Be Careful |EndCrimsonPeakFail]] ",
+		"position": {
+			"x": -571,
+			"y": 779
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndCrimsonPeakFail",
+		"tags": "",
+		"body": "<<EndCrimsonPeak>> ",
+		"position": {
+			"x": -271,
+			"y": 777
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndCrimsonPeakSuccess",
+		"tags": "",
+		"body": "<<endCrimsonPeak>> ",
+		"position": {
+			"x": 26,
+			"y": 516
+		},
+		"colorID": 0
+	}
+]

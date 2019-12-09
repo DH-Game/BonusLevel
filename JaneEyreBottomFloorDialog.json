@@ -1,0 +1,172 @@
+[
+	{
+		"title": "BottomDoor1",
+		"tags": "",
+		"body": "Open Door 1?\n[[Yes |EnterDoor1]] [[No |CancelDoor1]]  ",
+		"position": {
+			"x": 367,
+			"y": 204
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EnterDoor1",
+		"tags": "",
+		"body": "Oh--Uh--\nthis one's occupied!\nShh! Don't move--they'll here us!",
+		"position": {
+			"x": 6,
+			"y": 202
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelDoor1",
+		"tags": "",
+		"body": "<<cancelenterbottomdoor1>> ",
+		"position": {
+			"x": 675,
+			"y": 206
+		},
+		"colorID": 0
+	},
+	{
+		"title": "BottomDoor2",
+		"tags": "",
+		"body": "Enter Door 2?\n[[Yes |EnterDoor2]] [[No |CancelDoor2]] ",
+		"position": {
+			"x": 363,
+			"y": -20
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EnterDoor2",
+		"tags": "",
+		"body": "Oh no! A fire!\nOuch!\n[[God dammit! |FirePenalty]] [[Too hot! |FirePenalty]]  ",
+		"position": {
+			"x": 6,
+			"y": -20
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelDoor2",
+		"tags": "",
+		"body": "<<cancelenterbottomdoor2>> ",
+		"position": {
+			"x": 675,
+			"y": -20
+		},
+		"colorID": 0
+	},
+	{
+		"title": "BottomDoor3",
+		"tags": "",
+		"body": "Open Door 3?\n[[Yes |EnterDoor3]] [[No |CancelDoor3]] ",
+		"position": {
+			"x": 360,
+			"y": -247
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EnterDoor3",
+		"tags": "",
+		"body": "Hmm the handles stuck, must be locked.\nYou can hear faint snoring...",
+		"position": {
+			"x": 1,
+			"y": -251
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelDoor3",
+		"tags": "",
+		"body": "<<cancelenterbottomdoor3>> ",
+		"position": {
+			"x": 674,
+			"y": -246
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TopDoor1",
+		"tags": "",
+		"body": "Enter Door 1?\n[[Yes |EnterTopDoor1]] [[No |CancelEnterDoorTop1]] ",
+		"position": {
+			"x": 360,
+			"y": -500
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EnterTopDoor1",
+		"tags": "",
+		"body": "Oh my!\nJANE!\nCome quick!\n[[A Woman! |FoundBertha]] [[I've found someone! |FoundBertha]]  ",
+		"position": {
+			"x": 5,
+			"y": -503
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelEnterDoorTop1",
+		"tags": "",
+		"body": "<<cancelenterdoortop1>> ",
+		"position": {
+			"x": 670,
+			"y": -498
+		},
+		"colorID": 0
+	},
+	{
+		"title": "TopDoor2",
+		"tags": "",
+		"body": "Enter Door 2?\n[[Yes |EnterTopDoor2]] [[No |CancelEnterDoorTop2]] ",
+		"position": {
+			"x": 358,
+			"y": -735
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EnterTopDoor2",
+		"tags": "",
+		"body": "Ouch!\nA Fire!\n[[Ouch! |FirePenalty]] [[Not again! |FirePenalty]]  ",
+		"position": {
+			"x": 8,
+			"y": -741
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelEnterDoorTop2",
+		"tags": "",
+		"body": "<<cancelenterdoortop2>>",
+		"position": {
+			"x": 668,
+			"y": -732
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FirePenalty",
+		"tags": "",
+		"body": "<<burnplayer>> ",
+		"position": {
+			"x": -483,
+			"y": -231
+		},
+		"colorID": 0
+	},
+	{
+		"title": "FoundBertha",
+		"tags": "",
+		"body": "<<foundbertha>> ",
+		"position": {
+			"x": -500,
+			"y": -489
+		},
+		"colorID": 0
+	}
+]

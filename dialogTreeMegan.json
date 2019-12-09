@@ -1,0 +1,302 @@
+[
+	{
+		"title": "doorroom1",
+		"tags": "",
+		"body": "Travel to Thornfield Hall?\n[[ yes | enterdoorroom1 ]] [[ no | cancelenterdoorroom1 ]]",
+		"position": {
+			"x": 4446,
+			"y": 123
+		},
+		"colorID": 3
+	},
+	{
+		"title": "cancelenterdoorroom1",
+		"tags": "",
+		"body": "It's quiet late for a visit...",
+		"position": {
+			"x": 4592,
+			"y": 383
+		},
+		"colorID": 0
+	},
+	{
+		"title": "enterdoorroom1",
+		"tags": "",
+		"body": "<<enterDoorRoom1>>",
+		"position": {
+			"x": 4276,
+			"y": 374
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorroom2",
+		"tags": "",
+		"body": "Visit Hill House?\n[[ yes | enterdoorroom2 ]] [[ no | cancelenterdoorroom2 ]]",
+		"position": {
+			"x": 4975,
+			"y": 110
+		},
+		"colorID": 3
+	},
+	{
+		"title": "cancelenterdoorroom3",
+		"tags": "",
+		"body": "It's quiet late for a visit...",
+		"position": {
+			"x": 5866,
+			"y": 370
+		},
+		"colorID": 0
+	},
+	{
+		"title": "doorroom3",
+		"tags": "",
+		"body": "Travel to Collinswood?\n[[ yes | enterdoorroom3 ]] [[ no | cancelenterdoorroom3 ]]",
+		"position": {
+			"x": 5631,
+			"y": 95
+		},
+		"colorID": 3
+	},
+	{
+		"title": "enterdoorroom3",
+		"tags": "",
+		"body": "<<enterDoorRoom3>>",
+		"position": {
+			"x": 5475,
+			"y": 368
+		},
+		"colorID": 1
+	},
+	{
+		"title": "cancelenterdoorroom2",
+		"tags": "",
+		"body": "It's quiet late for a visit...",
+		"position": {
+			"x": 5173,
+			"y": 386
+		},
+		"colorID": 0
+	},
+	{
+		"title": "JackIntro",
+		"tags": "",
+		"body": "Welcome to the neighborhood, I trust the trips been eventful.\nHome Sweet Home! Don't you think? \nYou've made it this far, you might just make it home yet.\nBesides, we all go home in the end.\nDuring your visit, I'll be here, \nand there, \nand oh just about everywhere.\nJust think of me as your friendly neighborhood watch.\n[[ Almost to the end...| Jackintrodone ]] [[ Literary Suburban Hell, great.| Jackintrodone]]",
+		"position": {
+			"x": 4461,
+			"y": -391
+		},
+		"colorID": 2
+	},
+	{
+		"title": "HallwayHelpOptions",
+		"tags": "",
+		"body": "<<startdryadhelp>>",
+		"position": {
+			"x": 2246,
+			"y": -595
+		},
+		"colorID": 4
+	},
+	{
+		"title": "dryadchat3",
+		"tags": "",
+		"body": "I know you didn't ask for advice, but you'd better put on some more clothes...\nWouldn't want men to get the wrong impression and hurt you...\n[[I'll get right on that|dryadchatend]] [[I'll be careful|dryadchatend]]",
+		"position": {
+			"x": 2827,
+			"y": -68
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HallwayReminder",
+		"tags": "",
+		"body": "I am a Dryad...\nCan't you tell I'm a woman by my girlish figure? \nEnts are much scarier than Dryads...\nThank Gaia for sexual dimorphism!\n[[Hmmmm|dryadend]] [[Okay...|dryadend]] ",
+		"position": {
+			"x": 2987,
+			"y": -674
+		},
+		"colorID": 4
+	},
+	{
+		"title": "Jackintrodone",
+		"tags": "",
+		"body": "<<Jackintrodone>>\n<<endtext>> ",
+		"position": {
+			"x": 4764,
+			"y": -404
+		},
+		"colorID": 0
+	},
+	{
+		"title": "leave",
+		"tags": "",
+		"body": "Until next time...\nIf you survive until next time that is...\n[[That's cheerful|leaveend]] [[I'm trying|leaveend]] ",
+		"position": {
+			"x": 2645,
+			"y": -693
+		},
+		"colorID": 4
+	},
+	{
+		"title": "dryadchat",
+		"tags": "",
+		"body": "You'd be surprised how at old I am.\nI know older women are only supposed to be wise if we look our age.\nI'm very wise though even if my bark is flawless.\n[[It does look lovely|dryadchatend]] [[Hmmmm|dryadchatend]]",
+		"position": {
+			"x": 2599,
+			"y": -47
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadinteract",
+		"tags": "",
+		"body": "What do you want?\n[[I need help|HallwayHelpOptions]] [[I just want to chat|HallwayChat]] [[Who are you?|HallwayReminder]] [[Goodbye|leave]]",
+		"position": {
+			"x": 2964,
+			"y": -348
+		},
+		"colorID": 6
+	},
+	{
+		"title": "dryadchat2",
+		"tags": "",
+		"body": "Shutting up and letting men take of boring jobs like rule-making makes things so much easier don't you think?\nThis way I can focus on my barkcare routine...\n[[I suppose...|dryadchatend ]] [[Are you serious right now?|dryadchatend]]\n",
+		"position": {
+			"x": 2602,
+			"y": 380
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchat1",
+		"tags": "",
+		"body": "I thought I saw a vampire going through one of those doors a bit ago...\nYou must tell me if you find one!\nVampires are so dreamy...\n[[I don't think vampires are real|dryadchatend]] [[They definitely are!|dryadchatend]] [[ Maybe if it was Brad Pitt...|dryadchatend ]] ",
+		"position": {
+			"x": 2600,
+			"y": 168
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HallwayChat",
+		"tags": "",
+		"body": "<<startdryadchat>>",
+		"position": {
+			"x": 2596,
+			"y": -268
+		},
+		"colorID": 4
+	},
+	{
+		"title": "dryadhelp",
+		"tags": "",
+		"body": "Maybe you should try going through one of those doors...\nWatch out for other trees though!\nThey aren't all nice and beautiful like me...\n[[I'll try|dryadhelpend]] [[Hmmmm|dryadhelpend]]",
+		"position": {
+			"x": 2246,
+			"y": -367
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp4",
+		"tags": "",
+		"body": "Level2help\n[[option1|dryadhelpend]] [[option2|dryadhelpend]]",
+		"position": {
+			"x": 2010,
+			"y": -221
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp3",
+		"tags": "",
+		"body": "Level2 help\n[[Option1|dryadhelpend]] [[Option2|dryadhelpend]]",
+		"position": {
+			"x": 2009,
+			"y": -434
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadyhelp2",
+		"tags": "",
+		"body": "Watch out for women who dress in skimpy clothing.\nThey always attract danger...\n[[Wow...slut shame much?|dryadhelpend]] [[I'll get right on that...|dryadhelpend]]",
+		"position": {
+			"x": 2254,
+			"y": 58
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelp1",
+		"tags": "",
+		"body": "Be wary of pregnant women...\nHave you ever seen one of them angry?\n*shudder*\nI'm so glad trees don't get pregnant like humans...\n[[That is lucky!|dryadhelpend]] [[What?! Pregnancy is beautiful!|dryadhelpend]]",
+		"position": {
+			"x": 2249,
+			"y": -155
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchat4",
+		"tags": "",
+		"body": "Go away, I'm primping my leaves for a date with this fearsome ENT!\n[[Good luck!|dryadchatend]] [[Hmmmm|dryadchatend]] ",
+		"position": {
+			"x": 2823,
+			"y": 151
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadhelpend",
+		"tags": "",
+		"body": "<<enddryadhelp>> <<endtext>>",
+		"position": {
+			"x": 1759,
+			"y": -374
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadchatend",
+		"tags": "",
+		"body": "<<enddryadchat>> <<endtext>> ",
+		"position": {
+			"x": 3061,
+			"y": 148
+		},
+		"colorID": 0
+	},
+	{
+		"title": "dryadend",
+		"tags": "",
+		"body": "<<endtext>>",
+		"position": {
+			"x": 3243,
+			"y": -675
+		},
+		"colorID": 0
+	},
+	{
+		"title": "leaveend",
+		"tags": "",
+		"body": "<<endtext>> ",
+		"position": {
+			"x": 2384,
+			"y": -902
+		},
+		"colorID": 0
+	},
+	{
+		"title": "enterdoorroom2",
+		"tags": "",
+		"body": "<< enterDoorRoom2>> ",
+		"position": {
+			"x": 4873,
+			"y": 378
+		},
+		"colorID": 0
+	}
+]

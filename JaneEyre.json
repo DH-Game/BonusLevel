@@ -1,0 +1,72 @@
+[
+	{
+		"title": "JackChat",
+		"tags": "",
+		"body": "Do you smell something burning?\nNevermind, whats up?\n[[ I want to go back |returntohallway ]] [[ Whats going on again? | JackHelp1]] [[ Uh nevermind... |CancelJackChat ]] ",
+		"position": {
+			"x": 412,
+			"y": 238
+		},
+		"colorID": 0
+	},
+	{
+		"title": "returntohallway",
+		"tags": "",
+		"body": "<<returntohauntedhallway>> ",
+		"position": {
+			"x": 154,
+			"y": -57
+		},
+		"colorID": 0
+	},
+	{
+		"title": "JackHelp1",
+		"tags": "",
+		"body": "Have you talked to Ms. Eyre yet?\n[[ No | no ]] [[ Yes |yes ]] ",
+		"position": {
+			"x": 596,
+			"y": -19
+		},
+		"colorID": 0
+	},
+	{
+		"title": "CancelJackChat",
+		"tags": "",
+		"body": "See you later... maybe.\n<<canceljackchat>>",
+		"position": {
+			"x": 972,
+			"y": 18
+		},
+		"colorID": 0
+	},
+	{
+		"title": "no",
+		"tags": "",
+		"body": "How rude! You just barge into her house and don't even introduce yourself?\nThe manners of millenials these days.\n[[ Ok Boomer |endchat ]]",
+		"position": {
+			"x": 597,
+			"y": -247
+		},
+		"colorID": 0
+	},
+	{
+		"title": "yes",
+		"tags": "",
+		"body": "Then what, are you as dumb as you are big? Follow her up the stairs and to the left.\n[[ Jack Ass | endchat ]] [[ My bad, damn... |endchat ]] ",
+		"position": {
+			"x": 987,
+			"y": -238
+		},
+		"colorID": 0
+	},
+	{
+		"title": "endchat",
+		"tags": "",
+		"body": "<<canceljackchat>> ",
+		"position": {
+			"x": 577,
+			"y": -503
+		},
+		"colorID": 0
+	}
+]

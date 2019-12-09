@@ -1,0 +1,32 @@
+[
+	{
+		"title": "Start",
+		"tags": "",
+		"body": "Welcome to our neighborhood! Seeing as its Halloween, why don't you bring me back candy from each house? And then we can really get this party started!\n[[ Yes |Sure]] [[ no |Not a chance]]",
+		"position": {
+			"x": 411,
+			"y": 237
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Sure",
+		"tags": "",
+		"body": "Wow! You follow orders just like that?  This will be easy.",
+		"position": {
+			"x": 155,
+			"y": 508
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Not a chance",
+		"tags": "",
+		"body": "Listen up Punk, you're in my world now. Go find some candy.",
+		"position": {
+			"x": 717,
+			"y": 478
+		},
+		"colorID": 0
+	}
+]

@@ -1,0 +1,282 @@
+[
+	{
+		"title": "EleanorDialog",
+		"tags": "",
+		"body": "Oh hello!\nYou poor dear, you must be lost.\n[[Where am I? |EleanorResponse1]] [[Who are you? |EleanorResponse1]] ",
+		"position": {
+			"x": 411,
+			"y": 248
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorResponse1",
+		"tags": "",
+		"body": "My name's Eleanor, and I'm afraid you're at Hill House.\nBefore you go further, listen to me.\nThis place... it's not like any other house I've been to, not like any other house I've seen.\nI think it's evil.\nPlease, you have to help me convince the others to leave.\n[[Sure, ok! |EleanorYes]] [[I don't think so... |EleanorNo]] ",
+		"position": {
+			"x": 745,
+			"y": 226
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorYes",
+		"tags": "",
+		"body": "Thank you, oh thank you!\nThe others here now!\n[[No time like the present! |grouparrival]] [[Lets get out of here! |grouparrival]] ",
+		"position": {
+			"x": 1049,
+			"y": -8
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorNo",
+		"tags": "",
+		"body": "Fine then, I'll convince them myself.\n[[You do that. |endeleanordialog]] [[I hope it works out! |endeleanordialog]] ",
+		"position": {
+			"x": 1069,
+			"y": 451
+		},
+		"colorID": 0
+	},
+	{
+		"title": "grouparrival",
+		"tags": "",
+		"body": "<<endeleanordialog>> ",
+		"position": {
+			"x": 1381,
+			"y": -7
+		},
+		"colorID": 0
+	},
+	{
+		"title": "endeleanordialog",
+		"tags": "",
+		"body": "<<endeleanordialog>> ",
+		"position": {
+			"x": 1396,
+			"y": 449
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Question1",
+		"tags": "",
+		"body": "The floorpan! We couldn’t map it, we couldn’t even walk it without getting lost. \nThat’s not just spooky — thats supernatural!\n[[That is very peculiar... :|Haunted]] [[Bad interior design does not constitute a haunting :|NotHaunted]] \n",
+		"position": {
+			"x": 488,
+			"y": 922
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Haunted",
+		"tags": "",
+		"body": "<<endquestiononehaunted>> ",
+		"position": {
+			"x": -1,
+			"y": 924
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NotHaunted",
+		"tags": "",
+		"body": "<<endquestiononenothaunted>> ",
+		"position": {
+			"x": 966,
+			"y": 923
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HauntedEnd1",
+		"tags": "",
+		"body": " I can’t say your wrong, we can’t see the tower from our room and we should be able to.\n[[That's definitely weird. |EndQuestionOne]] [[How does an entire tower disappear?? |EndQuestionOne]] ",
+		"position": {
+			"x": 25,
+			"y": 1199
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestionOne",
+		"tags": "",
+		"body": "<<endquestionone>> ",
+		"position": {
+			"x": 486,
+			"y": 1217
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NotHauntedEnd1",
+		"tags": "",
+		"body": "A masterpiece of architectural misdirection!\n[[I guess... |EndQuestionOne]] [[A Picasso world! |EndQuestionOne]] ",
+		"position": {
+			"x": 968,
+			"y": 1183
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Question2",
+		"tags": "",
+		"body": "The drawing room! Theodora asked Hugh Crain’s spirit for a dance and she didn’t stop seeing things out of the corner of her eye in that room for the rest of the time we were there!\n[[I just got goosebumps...  |EndQuestion2Haunted]] [[So Theodora saw nothing? |EndQuestion2NotHaunted]] ",
+		"position": {
+			"x": 493,
+			"y": 1495
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestion2Haunted",
+		"tags": "",
+		"body": "<<endQuestionTwoHaunted>> ",
+		"position": {
+			"x": 24,
+			"y": 1494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestion2NotHaunted",
+		"tags": "",
+		"body": "<<endquestiontwonothaunted>> ",
+		"position": {
+			"x": 968,
+			"y": 1487
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HauntedEnd2",
+		"tags": "",
+		"body": "Nothing in this house seems to move until you look away. . .\n[[All the more reason to leave! |EndQuestionTwo]] [[How are there so many shadows in this room... |EndQuestionTwo]] ",
+		"position": {
+			"x": 50,
+			"y": 1745
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestionTwo",
+		"tags": "",
+		"body": "<<EndQuestionTwo>> ",
+		"position": {
+			"x": 495,
+			"y": 1821
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NotHauntedEnd2",
+		"tags": "",
+		"body": "Bollox, Crain had a unique taste\nJust Look at the statue of himself naked and with his small daughters as cherubs.\n[[On second thought... |EndQuestionTwo]] [[I'm not sure if that defends Crain... |EndQuestionTwo]] ",
+		"position": {
+			"x": 954,
+			"y": 1737
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Question3",
+		"tags": "",
+		"body": "The pounding in the hallway! Theodora you were with me - We heard it together in our room!\n[[That's it--we're leaving |EndQuestion3Haunted]] [['In our room'? |EndQuestion3NotHaunted]]  ",
+		"position": {
+			"x": 503,
+			"y": 2086
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestion3Haunted",
+		"tags": "",
+		"body": "<<EndQuestionThreeHaunted>> ",
+		"position": {
+			"x": 27,
+			"y": 2087
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestion3NotHaunted",
+		"tags": "",
+		"body": "<<EndQuestionThreeNotHaunted>> ",
+		"position": {
+			"x": 963,
+			"y": 2074
+		},
+		"colorID": 0
+	},
+	{
+		"title": "HauntedEnd3",
+		"tags": "",
+		"body": "It stayed on our door too, banging like it wanted to get in...\n[[Pack your bags! |EndQuestionThree]] [[I think our rides here girls... |EndQuestionThree]] ",
+		"position": {
+			"x": 111,
+			"y": 2328
+		},
+		"colorID": 0
+	},
+	{
+		"title": "NotHauntedEnd3",
+		"tags": "",
+		"body": " I think the house is beginning to get to you Eleanor, you’re becoming hysterical.\n[[Hey now, that might not be it... |EndQuestionThree]] [[Are you alright, Eleanor? |EndQuestionThree]] ",
+		"position": {
+			"x": 894,
+			"y": 2349
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EndQuestionThree",
+		"tags": "",
+		"body": "<<EndQuestionThree>> ",
+		"position": {
+			"x": 490,
+			"y": 2494
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorLives",
+		"tags": "",
+		"body": "Thank you, thank you, I think they're starting to understand now.\nWe will leave as soon as we are packed, but you should go now!\nWhile you still can.\n[[Good luck! |EleanorLivesEnd]] [[Be safe! |EleanorLivesEnd]]  ",
+		"position": {
+			"x": 1574,
+			"y": 1141
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorLivesEnd",
+		"tags": "",
+		"body": "<<EndHillHouse>> ",
+		"position": {
+			"x": 1948,
+			"y": 1152
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorDies",
+		"tags": "",
+		"body": "Why would you offer to help...\nAnd then refuse to say anything helpful?\nI'll figure this out on my own--but not before I get out of here!\n[[Good Luck! |EleanorDiesEnd]] [[Be safe! |EleanorDiesEnd]]  ",
+		"position": {
+			"x": 1579,
+			"y": 1433
+		},
+		"colorID": 0
+	},
+	{
+		"title": "EleanorDiesEnd",
+		"tags": "",
+		"body": "<<EndHillHouse>> ",
+		"position": {
+			"x": 1994,
+			"y": 1456
+		},
+		"colorID": 0
+	}
+]
